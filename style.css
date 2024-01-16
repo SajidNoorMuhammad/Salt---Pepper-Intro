@@ -116,8 +116,21 @@ body {
     font-family: "Font" ;
 }
 
-.slide >img {
-    width: 200px;
-    height: 300px;
+.card-logo {
+    width: 250px;
+    text-align: center;
     background-color: #fff;
+    padding: 30px 10px;
+}
+
+.card-logo>img {
+    width: 70%;
+}
+.card-btn>button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff !important;
 }
