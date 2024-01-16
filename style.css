@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 
 body {
     margin: 0px;
@@ -123,14 +125,37 @@ body {
     padding: 30px 10px;
 }
 
+.card>img {
+    width: 300px;
+    background-color: #fff;
+    padding: 10px;
+}
 .card-logo>img {
     width: 70%;
 }
-.card-btn>button {
+
+.card-btn>button{
     border: none;
     padding: 15px 20px;
     border-radius: 35px;
     background-color: transparent;
     color: white;
     border: 1px solid #fff !important;
+}
+.card-btn {
+    margin-top: 10px;
+    text-align: center;
+    width: 250px;
+}
+ 
+.cards {
+    display: inline-block;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.center-card {
+    margin: 0px 20px;
 }
