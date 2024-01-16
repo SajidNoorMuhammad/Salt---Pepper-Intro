@@ -81,11 +81,43 @@ body {
     text-align: center;
     padding: 20px;
 }
-.intro > .content > .new {
+.content> h2 {
     font-weight: 200;
+    font-size: 1000px;
+}
+.content > h2 {
     font-size: 40px;
 }
-.intro > .content > .old {
-    font-weight: 200;
-    font-size: 30px;
+
+@font-face {
+    font-family: "Futurak";
+    src: url(/Fonts/futurak.ttf);
+}
+
+.content > h2 > span {
+    font-family: "Futurak";
+    letter-spacing: 3px;
+}
+
+.content>p {
+    letter-spacing: 0.03em;;
+}
+
+@font-face {
+    font-family: "Font";
+    src: url(/Fonts/Apercu\ Regular.otf);
+}
+
+.content>p {
+    font-family: "Font";
+}
+
+.content>h2 {
+    font-family: "Font" ;
+}
+
+.slide >img {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
 }
