@@ -1,6 +1,5 @@
-
 body {
-    background-color: darkblue;
+    background-color: black;
 }
 
 body {
@@ -86,6 +85,7 @@ body {
 }
 .content> h2 {
     font-weight: 200;
+    font-size: 1000px;
 }
 .content > h2 {
     font-size: 40px;
@@ -93,7 +93,7 @@ body {
 
 @font-face {
     font-family: "Futurak";
-    src: url(Fonts/futurak.ttf);
+    src: url(/Fonts/futurak.ttf);
 }
 
 .content > h2 > span {
@@ -107,7 +107,7 @@ body {
 
 @font-face {
     font-family: "Font";
-    src: url(Fonts/Apercu Regular.otf);
+    src: url(/Fonts/Apercu\ Regular.otf);
 }
 
 .content>p {
@@ -158,148 +158,4 @@ body {
 
 .center-card {
     margin: 0px 20px;
-}
-
-
-
-.too {
-    font-family: "Futurak";
-}
-
-h2 {
-    text-align: center;
-}
-
-.too {
-    font-size: 50px;
-    color: #fff;
-}
-
-.back {
-    position: relative;
-    background: rgba(255, 255, 255, 0.06);
-    padding: 70px;
-}
-
-h2>.two {
-    font-size: 40px;
-    color: #fff;
-}
-
-div>p {
-    text-align: center;
-    color: #fff;
-}
-.small {
-color: red;
-font-size: 15px;
-letter-spacing: 2px;
-}
-
-div>h3>span {
-    font-family: "Futurak";
-}
-
-div>h3 {
-    color: #fff;
-    font-size: 30px;
-}
-div>h3>span {
-    letter-spacing: 2px;
-}
-
-div>.e{
-    text-align: left;
-}
-
-div>.phone {
-    text-align: left;
-}
-
-div>.buttn {
-    border-radius: 35px;
-    padding: 15px 30px;
-    border-color: #fff !important;
-}
-div>button>i {
-    background-color: #fff;
-    border-radius: 100%;
-    color: red;
-    border-color: #fff !important;
-}
-/* 
-.con {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-.con>img {
-    width: 300px;
-}
-
-img.align-right {
-    float: right;
-    margin-left: 10px;
-}
-
-img.align-right {
-    width: 500px;
-    height: 350px;
-    margin-right: 10%;
-    vertical-align: middle;
-    max-width: 100%;
-    border-style: none;
-}
-
-.con {
-    margin-left: 50px ;
-}
-
-
-.com>img>.align-left{
-    float: left;
-    margin-right: 10px;
-    width: 500px;
-    height: 350px;
-    vertical-align: middle;
-    max-width: 100%;
-    border-style: none;
-} */
-
-div>.next>span {
-    font-family: "Futurak";
-    font-size: 52px;
-}
-div>.next {
-    font-size: 59px;
-    text-align: center;
-    color: #fff;
-}
-.wow {
-    color: red;
-    font-size: 15px;
-    letter-spacing: 2px;
-}
-
-div>p>span {
-    font-family: "Futurak";
-    font-size: 30px;
-}
-
-div>p {
-    font-size: 30px;
-    text-align: left;
-}
-
-img {
-    width: 300px;
-}
-
-.post {
-    padding-left: 70px;
-}
-
-.post>small>.wow {
-    text-align: center;
 }
