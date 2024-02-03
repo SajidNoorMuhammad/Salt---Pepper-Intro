@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: black;
 }
 
@@ -10,7 +10,7 @@ body {
     width: 100%;
     background-color: black;
     padding: 10px 100px;  
-    /* height: 100px; */
+    height: 100px;
 }
 .logo>img {
     width: 150px;
@@ -159,3 +159,220 @@ body {
 .center-card {
     margin: 0px 20px;
 }
+
+
+.salt {
+    font-family:  "Futurak";
+    font-size: 70px;
+} */
+
+.navbar-brand {
+    margin-left: 80px;
+}
+
+.start-header {
+    background-color: black;
+    text-align: center;
+}
+
+.nav-item>a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.btns >button {
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.btn-one {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff !important;
+    margin-left: 30px;
+}
+
+.btn-two {
+    background-color: red;
+    border-color: red !important;
+    color: white;
+}
+
+.btn-two>i {
+    background-color: white;
+    color: red;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left: 2px;
+}
+
+@media only screen and (max-width: 700px) {
+    .btn-one {
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .btn-two {
+        text-align: center;
+    }
+
+    .btns {
+        margin-top: 30px;
+    }
+
+    .slider>img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+.middle {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.head {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.head>.head-one {
+    font-family: "Futurak";
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+}
+
+.head-two {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    line-height: 1px;
+    color: #fff;
+}
+
+.head-three {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 60px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .head {
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .head-two {
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .head-three {
+        line-height: 25px;
+        text-align: center;
+    }
+}
+
+
+.image-one>img {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 130px;
+}
+
+.image-two>img {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: 30px;
+}
+
+.image-three>img {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    margin-left: -60px;
+}
+
+.card-btn-one>button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff !important;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+
+
+.card-btn-two>button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff !important;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.card-btn-three>button{
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff !important;
+    /* margin-left: 50px; */
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-one>img {
+        margin-left: 10px;
+        text-align: center !important;
+    }
+
+    .card-btn-one>button {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .image-two>img {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .card-btn-two>button {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    .image-three>img {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .card-btn-three>button {
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
