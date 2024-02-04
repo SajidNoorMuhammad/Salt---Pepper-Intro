@@ -572,8 +572,33 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .one-one {
-        line-height: 10px;
+    .middle-two>.one-one {
+        line-height: 50px;
+    }
+    .middle-two>.two-two {
+        line-height: 25px;
+    }
+
+    .hello {
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hello-one {
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .color>.doc {
+        line-height: 50px;
+    }
+
+    .once>.text-3 {
+        line-height: 20px;
+    }
+
+    .slide-3>.three {
+        line-height: 20px;
     }
 }
 
